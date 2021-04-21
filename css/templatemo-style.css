@@ -5,6 +5,10 @@ TemplateMo 560 Astro Motion
 https://templatemo.com/tm-560-astro-motion
 
 */
+.img16{
+    max-width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+    height:auto;
+}
 
 html, body, .page-container {
     height: 100%;
